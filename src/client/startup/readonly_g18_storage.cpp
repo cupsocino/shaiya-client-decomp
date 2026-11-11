@@ -96,8 +96,6 @@ extern unsigned char prior_reference_91[] __asm__("_startup_dependency_location_
 extern unsigned char prior_reference_92[] __asm__("_startup_dependency_location_006ad0de");
 extern unsigned char prior_reference_93[] __asm__("_startup_dependency_location_006ad0e9");
 extern unsigned char prior_reference_94[] __asm__("_dat_006fc0e0");
-extern unsigned char prior_reference_101[] __asm__("_startup_dependency_location_006ad9b0");
-extern unsigned char prior_reference_102[] __asm__("_dat_006fca48");
 extern unsigned char prior_reference_103[] __asm__("_startup_dependency_location_006adb50");
 extern unsigned char prior_reference_104[] __asm__("_startup_dependency_location_006adbce");
 extern unsigned char prior_reference_105[] __asm__("_startup_dependency_location_006adb5e");
@@ -1107,15 +1105,6 @@ extern const CxxFuncInfo dat_006fc108 = {
     0x19930520,
     5,
     reinterpret_cast<CxxUnwindEntry*>(prior_reference_94),
-    0,
-    reinterpret_cast<CxxTryBlock*>(static_cast<unsigned char*>(nullptr)),
-    0,
-    nullptr};
-extern const CxxUnwindEntry dat_006fca48[1] = {{-1, reinterpret_cast<void*>(prior_reference_101)}};
-extern const CxxFuncInfo dat_006fca50 = {
-    0x19930520,
-    1,
-    reinterpret_cast<CxxUnwindEntry*>(prior_reference_102),
     0,
     reinterpret_cast<CxxTryBlock*>(static_cast<unsigned char*>(nullptr)),
     0,
