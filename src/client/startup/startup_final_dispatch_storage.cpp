@@ -366,8 +366,6 @@ void dispatch_target_0045dd87() __asm__("_startup_dependency_location_0045dd87")
 void dispatch_target_0045df9d() __asm__("_startup_dependency_location_0045df9d");
 void dispatch_target_0045e033() __asm__("_startup_dependency_location_0045e033");
 void dispatch_target_0045e33e() __asm__("_startup_dependency_location_0045e33e");
-void dispatch_target_00461370() __asm__("_startup_dependency_location_00461370");
-void dispatch_target_004613af() __asm__("_startup_dependency_location_004613af");
 void dispatch_target_00463beb() __asm__("_startup_dependency_location_00463beb");
 void dispatch_target_00463c0f() __asm__("_startup_dependency_location_00463c0f");
 void dispatch_target_00463c2f() __asm__("_startup_dependency_location_00463c2f");
@@ -1783,12 +1781,6 @@ extern const OriginalDispatchTarget dat_0045dbcc[] = {
 extern const OriginalDispatchTarget dat_0045e668[] = {
     &dispatch_target_0045dc32, &dispatch_target_0045dd87, &dispatch_target_0045dd87,
     &dispatch_target_0045df9d, &dispatch_target_0045e033, &dispatch_target_0045e33e};
-extern const OriginalDispatchTarget dat_0046141c[] = {&dispatch_target_00461370,
-                                                      &dispatch_target_004613af};
-extern const uint8_t dat_00461424[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,
-                                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-                                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0,
-                                       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 extern const OriginalDispatchTarget dat_00463e90[] = {
     &dispatch_target_00463beb, &dispatch_target_00463c0f, &dispatch_target_00463c2f,
     &dispatch_target_00463c4f, &dispatch_target_00463c6f, &dispatch_target_00463c8f,
